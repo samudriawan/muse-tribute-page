@@ -61,7 +61,7 @@ body{
   }
   
   #tribute-info li{
-    min-width: 150px;
+    width: 150px;
     height: 150px;
     margin: 8px;
   }
@@ -112,16 +112,17 @@ body{
   }
   
   #connect ul{
+    width: 400px;
+    margin: 0 auto;
     list-style-type: none;
     padding: 0;
     display: flex;
-    flex: wrap;
     justify-content: center;
   }
   
   #connect li{
-    font-size: 1.7em;
-    margin: 0 20px;
+    font-size: 1.5em;
+    margin: 0 15px;
   }
   
   #connect li a{
